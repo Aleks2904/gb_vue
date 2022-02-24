@@ -1,0 +1,168 @@
+@mixin px1024-1199{
+  @media (min-width: 1024px) and (max-width: 1199px){
+    @content;
+  }
+}
+
+@mixin px1100-1199{
+  @media (min-width: 1100px) and (max-width: 1199px){
+    @content;
+  }
+}
+
+@mixin px1024-1099{
+  @media (min-width: 1024px) and (max-width: 1099px){
+    @content;
+  }
+}
+
+@mixin px1149{
+  @media (max-width: 1149px){
+    @content;
+  }
+}
+
+@mixin px1024 {
+  @media (min-width: 1024px){
+    @content;
+  }
+}
+
+@mixin px1023 {
+  @media (max-width: 1023px){
+    @content;
+  }
+}
+
+@mixin px850-1023 {
+  @media (min-width: 850px) and (max-width: 1023px){
+    @content;
+  }
+}
+
+@mixin px849 {
+  @media (max-width: 849px){
+    @content;
+  }
+}
+
+@mixin px799 {
+  @media (max-width: 799px){
+    @content;
+  }
+}
+
+@mixin px760-1023 {
+  @media (min-width: 760px) and (max-width: 1023px){
+    @content;
+  }
+}
+
+
+@mixin px760 {
+  @media (min-width: 760px){
+    @content;
+  }
+}
+
+@mixin px759 {
+  @media (max-width: 759px){
+    @content;
+  }
+}
+
+@mixin px660 {
+  @media (min-width: 660px){
+    @content;
+  }
+}
+
+@mixin px659 {
+  @media (max-width: 659px){
+    @content;
+  }
+}
+
+@mixin px549 {
+  @media (max-width: 549px){
+    @content;
+  }
+}
+
+@mixin px480{
+  @media (min-width: 480px){
+    @content;
+  }
+}
+
+@mixin px480-1399 {
+  @media (min-width: 480px) and (max-width: 1399px){
+    @content;
+  }
+}
+
+@mixin px480-1023 {
+  @media (min-width: 480px) and (max-width: 1023px){
+    @content;
+  }
+}
+
+@mixin px499 {
+  @media (max-width: 499px){
+    @content;
+  }
+}
+
+@mixin px479 {
+  @media (max-width: 479px){
+    @content;
+  }
+}
+
+@mixin px767 {
+  @media(max-width: 767px){
+    @content;
+  }
+}
+
+@mixin h1080 {
+  @media(min-height: 1080px){
+    @content;
+  }
+}
+
+@mixin h768-1079 {
+  @media(min-height: 768px) and (max-height: 1079px){
+    @content;
+  }
+}
+
+@mixin h600-767 {
+  @media(min-height: 600px) and (max-height: 767px){
+    @content;
+  }
+}
+
+@mixin h460-599 {
+  @media(min-height: 460px) and (max-height: 599px){
+    @content;
+  }
+}
+
+@mixin h460 {
+  @media(min-height: 460px){
+    @content;
+  }
+}
+
+@mixin h320-459 {
+  @media(min-height: 320px) and (max-height: 459px){
+    @content;
+  }
+}
+
+@mixin h459 {
+  @media(max-height: 459px){
+    @content;
+  }
+}

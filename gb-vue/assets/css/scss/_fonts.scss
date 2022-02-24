@@ -1,0 +1,205 @@
+/* Circe */
+
+@font-face {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Circe'),
+  url('~assets/fonts/Circe/Circe-Light.woff2'),
+  url('~assets/fonts/Circe/Circe-Light.woff'),
+}
+
+@font-face {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Circe'),
+  url('~assets/fonts/Circe/Circe-Regular.woff2'),
+  url('~assets/fonts/Circe/Circe-Regular.woff'),
+}
+
+@font-face {
+  font-family: 'Circe';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Circe'),
+  url('~assets/fonts/Circe/Circe-Bold.woff2'),
+  url('~assets/fonts/Circe/Circe-Bold.woff'),
+}
+
+/*Comfortaa*/
+
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Comfortaa'),
+  url('~assets/fonts/Comfortaa/Comfortaa-Bold.woff2'),
+  url('~assets/fonts/Comfortaa/Comfortaa-Bold.woff'),
+}
+
+/*FuturaBookC*/
+
+@font-face {
+  font-family: 'FuturaBookC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Futura Book C'),
+  url('~assets/fonts/FuturaBookC/FuturaBookC-Regular.woff2'),
+  url('~assets/fonts/FuturaBookC/FuturaBookC-Regular.woff'),
+}
+
+/*Montserrat*/
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat'),
+  url('~assets/fonts/Montserrat/Montserrat-Regular.woff2'),
+  url('~assets/fonts/Montserrat/Montserrat-Regular.woff'),
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Montserrat'),
+  url('~assets/fonts/Montserrat/Montserrat-SemiBold.woff2'),
+  url('~assets/fonts/Montserrat/Montserrat-SemiBold.woff'),
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Montserrat'),
+  url('~assets/fonts/Montserrat/Montserrat-Bold.woff2'),
+  url('~assets/fonts/Montserrat/Montserrat-Bold.woff'),
+}
+
+/*Mplus-1p*/
+
+@font-face {
+  font-family: 'Mplus-1p';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('M Plus 1p'),
+  url('~assets/fonts/Mplus-1p/Mplus1p-Light.woff2'),
+  url('~assets/fonts/Mplus-1p/Mplus1p-Light.woff'),
+}
+
+/*Raleway*/
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto'),
+  url('~assets/fonts/Raleway/Raleway-Medium.woff2'),
+  url('~assets/fonts/Raleway/Raleway-Medium.woff'),
+}
+
+/*Roboto*/
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto'),
+  url('~assets/fonts/Roboto/Roboto-Light.woff2'),
+  url('~assets/fonts/Roboto/Roboto-Light.woff'),
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'),
+  url('~assets/fonts/Roboto/Roboto-Regular.woff2'),
+  url('~assets/fonts/Roboto/Roboto-Regular.woff'),
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Roboto'),
+  url('~assets/fonts/Roboto/Roboto-Medium.woff2'),
+  url('~assets/fonts/Roboto/Roboto-Medium.woff'),
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto'),
+  url('~assets/fonts/Roboto/Roboto-Bold.woff2'),
+  url('~assets/fonts/Roboto/Roboto-Bold.woff'),
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'),
+  url('~assets/fonts/Roboto/Roboto-Italic.woff2'),
+  url('~assets/fonts/Roboto/Roboto-Italic.woff'),
+}
+
+/*Rubik*/
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Rubik'),
+  url('~assets/fonts/Rubik/Rubik-Bold.woff2'),
+  url('~assets/fonts/Rubik/Rubik-Bold.woff'),
+}
+
+/*SourceSansPro*/
+
+@font-face {
+  font-family: 'SourceSansPro';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: local('SourceSansPro'),
+  url('~assets/fonts/SourceSansPro/SourceSansPro-SemiBold.woff2'),
+  url('~assets/fonts/SourceSansPro/SourceSansPro-SemiBold.woff'),
+}
+
+/*UltimaPro*/
+
+@font-face {
+  font-family: "UltimaPro";
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: local("UltimaPro"),
+  url('~assets/fonts/UltimaPro/UltimaPro-Bold.woff2'),
+  url('~assets/fonts/UltimaPro/UltimaPro-Bold.woff'),
+}
+
+
+
+
+
+

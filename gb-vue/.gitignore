@@ -35,9 +35,8 @@ bower_components
 build/Release
 
 # Dependency directories
+node_modules/
 jspm_packages/
-gb-server/node_modules/
-gb-vue/node_modules/
 
 # TypeScript v1 declaration files
 typings/

@@ -1,0 +1,30 @@
+[
+  {
+    "description": "30% OFF",
+    "title": "FOR WOMEN",
+    "src": "https://i11.fotocdn.net/s121/812174e17c001a41/public_pin_l/2764195349.jpg",
+    "type": "women",
+    "id": "1"
+  },
+  {
+    "description": "HOT DEAL",
+    "title": "FOR MEN",
+    "src": "https://img3.goodfon.ru/wallpaper/nbig/e/ca/kot-kotik-kote-kotenok-vzgliad-glaza-smotrit-korzina.jpg",
+    "type": "men",
+    "id": "2"
+  },
+  {
+    "description": "NEW ARRIVALS",
+    "title": "FOR KID",
+    "src": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612673186_68-p-kot-zelenii-fon-100.jpg",
+    "type": "kid",
+    "id": "3"
+  },
+  {
+    "description": "LUXIROUS & TRENDY",
+    "title": "ACCESORIES",
+    "src": "http://kto-chto-gde.ru/wp-content/uploads/2016/11/2-25.jpg",
+    "type": "accesories",
+    "id": "4"
+  }
+]

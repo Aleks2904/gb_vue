@@ -1,0 +1,169 @@
+body{
+  font-family:'Circe', sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  min-width:360px;
+  margin:0;
+  box-sizing: border-box;
+  background: white;
+}
+
+*{
+  font-family: "Circe";
+}
+
+*,
+*:before,
+*::after{
+  box-sizing:inherit;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+img{
+  box-sizing: border-box;
+  max-width:100%;
+  max-height: 100%;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+  border: none;
+  outline: none;
+}
+
+ul, ol{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, figure, span{
+  margin: 0;
+  cursor: default;
+  user-select: none;
+}
+
+input{
+  margin: 0;
+  outline: none;
+}
+
+button{
+  background: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+
+  &:disabled{
+    cursor: default;
+  }
+}
+
+.container{
+  width: 100%;
+  max-width: 1600px;
+  padding: 0 60px;
+  margin: 0 auto;
+
+  @include px1023{
+    padding: 0 16px;
+  }
+}
+
+.font-awesome{
+  color: $lightGray;
+  display: inline-block;
+
+  transition: color 0.3s;
+
+  &:hover,
+  &:focus{
+    color: $orange;
+    transition: color 0.3s;
+  }
+
+  &:after{
+    content: "";
+    font: normal normal normal 14px/1 FontAwesome;
+    -webkit-text-stroke: 1px transparent;
+    background: transparent;
+    font-size: 26px;
+  }
+}
+
+.v-select *{
+  font-family: "Circe" !important;
+}
+
+.title{
+  font-family: "UltimaPro";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 40px;
+
+  @include px759{
+    font-size: 28px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+}
+
+.visually-hidden{
+  position:absolute;
+
+  overflow:hidden;
+  clip:rect(1px 1px 1px 1px);
+  clip:rect(1px, 1px, 1px, 1px);
+
+  width:1px;
+  height:1px;
+  padding:0;
+
+  border:0;
+}
+
+.svg-sprites{
+  position:absolute;
+
+  overflow:hidden;
+  clip:rect(1px 1px 1px 1px);
+  clip:rect(1px, 1px, 1px, 1px);
+
+  width:1px;
+  height:1px;
+  padding:0;
+
+  opacity: 0;
+  top: 0;
+  left: 0;
+
+  border:0;
+}
+
+.text-gradient{
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  color: $orange;
+  overflow: hidden;
+  background: linear-gradient(to right, $orange, $orange 50%, black 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+
+  &:hover,
+  &:focus{
+    background-position: 0 100%;
+  }
+}
+
