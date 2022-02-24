@@ -1,0 +1,30 @@
+[
+  {
+    "name": "basket",
+    "path": "/basket",
+    "component": "E:\\\\gb\\\\gb_vue\\\\gb-vue\\\\pages\\\\basket.vue",
+    "chunkName": "pages/basket",
+    "_name": "_56fefd06"
+  },
+  {
+    "name": "catalog-id",
+    "path": "/catalog/:id?",
+    "component": "E:\\\\gb\\\\gb_vue\\\\gb-vue\\\\pages\\\\catalog\\\\_id.vue",
+    "chunkName": "pages/catalog/_id",
+    "_name": "_5c1e24fe"
+  },
+  {
+    "name": "product-id",
+    "path": "/product/:id?",
+    "component": "E:\\\\gb\\\\gb_vue\\\\gb-vue\\\\pages\\\\product\\\\_id.vue",
+    "chunkName": "pages/product/_id",
+    "_name": "_5260916b"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "E:\\\\gb\\\\gb_vue\\\\gb-vue\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_344f29c2"
+  }
+]

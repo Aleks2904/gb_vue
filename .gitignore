@@ -32,7 +32,6 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
-build/Release
 
 # Dependency directories
 jspm_packages/
@@ -62,18 +61,6 @@ typings/
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
-
-# next.js build output
-.next
-
-# nuxt.js build output
-.nuxt
-
-# Nuxt generate
-dist
-
-# vuepress build output
-.vuepress/dist
 
 # Serverless directories
 .serverless
